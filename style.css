@@ -19,6 +19,7 @@ main {
 #containerX {
   scroll-snap-align: start;
   height: 100vh;
+  width: 400vw;
   scroll-snap-type: x mandatory;
 }
 
