@@ -19,27 +19,30 @@ main {
 #containerX {
   scroll-snap-align: start;
   height: 100vh;
+  width: 100%;
+}
+
+#containerX .stearinlys {
+  width: 100%;
+  height: 100vh;
+  background-color: hotpink;
   scroll-snap-type: x mandatory;
 }
 
-.stearinlys {
-  flex-wrap: wrap;
-
-  height: 100vh;
-  background-color: hotpink;
-}
-
-.lampe {
+#containerX .lampe {
+  width: 100%;
   height: 100vh;
   background-color: tomato;
 }
 
-.arbejdsdag {
+#containerX .arbejdsdag {
+  width: 100%;
   height: 100vh;
   background-color: greenyellow;
 }
 
-.timessquare {
+#containerX .timessquare {
+  width: 100%;
   height: 100vh;
   background-color: orange;
 }
