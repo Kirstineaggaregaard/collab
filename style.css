@@ -1,0 +1,51 @@
+main {
+  display: grid;
+}
+
+#containerY {
+  height: 100vh;
+  /* scroll-snap-type: y mandatory; */
+}
+
+.sol {
+  overflow: scroll;
+  height: 100vh;
+  background-color: yellow;
+  scroll-snap-align: start;
+}
+
+#containerX {
+  height: 100vh;
+  scroll-snap-type: x mandatory;
+}
+
+.stearinlys {
+  height: 100vh;
+  overflow: auto;
+  background-color: tomato;
+  white-space: nowrap;
+}
+
+.lampe {
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+  background-color: greenyellow;
+  white-space: nowrap;
+}
+
+.arbejdsdag {
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+  background-color: lightblue;
+  white-space: nowrap;
+}
+
+.timessquare {
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+  background-color: hotpink;
+  white-space: nowrap;
+}
